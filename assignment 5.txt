@@ -1,0 +1,23 @@
+5. String str3 = new String("Kutty");
+		 String str4 = new String("Kutty");
+		 
+		 if(str3==str4) {
+			 System.out.println(" Same text");
+		 }
+		 else
+			 System.out.println("Diff text");
+		 
+		 System.out.println("***");
+
+
+justification :
+
+* In String, the == operator is used to comparing the reference of the given strings, depending on if they are referring to the same objects. 
+* When you compare two strings using == operator, it will return true if the string variables are pointing toward the same java object. 
+* Otherwise, it will return false .
+* Hence when we are comparing str3,str4 using "==" it is considered as not equal based on its reference and print the below output.
+
+OutPut : 
+
+Diff text
+***
